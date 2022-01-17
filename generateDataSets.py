@@ -1,10 +1,8 @@
-import os, sys
+import os, sys, time
 import ROOT
 
 from secrets import randbelow
 
-
-import time
 
 N = 5000
 nVars = 7
