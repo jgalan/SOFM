@@ -4,7 +4,7 @@ import numpy as np
 
 import SOFM
 
-Ro = SOFM.netSize/4.
+Ro = SOFM.netSize/2.
 Rf = 1
 
 alpha_o = 0.99
@@ -126,7 +126,7 @@ def networkTraining( ):
                 print( "Reseting at sample : " + str(counter) )
                 break 
 
-    f = open("data/network.out", "wt" )
+    f = open("results/network.out", "wt" )
     for n in range(SOFM.netSize):
         for m in range(SOFM.netSize):
             f.write(str(n)+"\t"+str(m) )
