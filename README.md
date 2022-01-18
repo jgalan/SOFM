@@ -7,7 +7,7 @@ Contents
 
 - **networkTrainning.py**: It performs the network trainning and places the resulting network at "data/network.out".
 
-- **evalNetwork.py**: It generates bidimensional histograms using the independent population files and the trainned network to show which cells specialed to identify each region.
+- **evalNetwork.py**: It generates bidimensional histograms using the independent population files and the trainned network to show which cells specialized to identify each region.
 
 
 Potential questions. 
